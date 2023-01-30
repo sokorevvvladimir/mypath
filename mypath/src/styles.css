@@ -17,3 +17,9 @@ ul {
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+:root {
+  --glow-color: hsl(186 100% 69%);
+}

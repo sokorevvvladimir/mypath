@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 // import { SharedModule } from '../shared/shared.module';
 import { UkraineComponent } from './components/ukraine/ukraine.component';
 import { UkraineRoutingModule } from './ukraine-routing.module';
+import { HttpClientModule} from '@angular/common/http';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 @NgModule({
   declarations: [
@@ -11,7 +13,9 @@ import { UkraineRoutingModule } from './ukraine-routing.module';
   imports: [
     CommonModule,
     // SharedModule,
-    UkraineRoutingModule
+    UkraineRoutingModule,
+    HttpClientModule,
+    NgxGalleryModule
     
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

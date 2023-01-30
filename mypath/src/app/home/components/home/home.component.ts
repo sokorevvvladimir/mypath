@@ -11,7 +11,8 @@ import { HostListener } from '@angular/core';
     
 export class HomeComponent {
      greetings = 'Welcome everyone! Bienvenidos a todos! Xin chào mọi người! Ласкаво просимо! Sejam todos bem-vindos! !ברוכים הבאים'
-     @HostListener('window:scroll', ['$event'])
+    
+    @HostListener('window:scroll', ['$event'])
     
      onWindowScroll() {
     let list = document.querySelector('.list') as HTMLElement;

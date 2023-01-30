@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 // import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './components/home/home.component';
 import { HomeRoutingModule } from './home-routing.module';
+import { MatRippleModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { HomeRoutingModule } from './home-routing.module';
   imports: [
     CommonModule,
     // SharedModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    MatRippleModule
     
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
