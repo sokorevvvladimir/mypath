@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 // import { SharedModule } from '../shared/shared.module';
 import { FamilyComponent } from './components/family/family.component';
 import { FamilyRoutingModule } from './family-routing.module';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { FamilyRoutingModule } from './family-routing.module';
   imports: [
     CommonModule,
     // SharedModule,
-    FamilyRoutingModule
+    FamilyRoutingModule,
+    NgxGalleryModule
     
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
