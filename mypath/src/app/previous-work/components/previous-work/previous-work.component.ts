@@ -27,7 +27,7 @@ export class PreviousWorkComponent {
       {
         width: '600px',
         height: '400px',
-        thumbnailsColumns: 5,
+        thumbnailsColumns: 6,
         imageAnimation: NgxGalleryAnimation.Slide,
         arrowPrevIcon: 'fa fa-chevron-left',
         arrowNextIcon: 'fa fa-chevron-right'
@@ -69,18 +69,23 @@ export class PreviousWorkComponent {
           big: 'assets/img/previous-work/3-big.jpeg',
         description: 'Climbing from the boat to the vessel'
       },{
-        small: 'assets/img/family/4-small.jpeg',
-        medium: 'assets/img/family/4-medium.jpeg',
-          big: 'assets/img/family/4-big.jpeg',
-        description: 'First day in school'
+        small: 'assets/img/previous-work/4-small.jpeg',
+        medium: 'assets/img/previous-work/4-medium.jpeg',
+          big: 'assets/img/previous-work/4-big.jpeg',
+        description: 'Loading of steel coils'
       },
       {
-        small: 'assets/img/family/5-small.jpeg',
-        medium: 'assets/img/family/5-medium.jpeg',
-          big: 'assets/img/family/5-big.jpeg',
-        description: 'My university family'
+        small: 'assets/img/previous-work/5-small.jpeg',
+        medium: 'assets/img/previous-work/5-medium.jpeg',
+          big: 'assets/img/previous-work/5-big.jpeg',
+        description: 'Loading of wheat'
         },
-      
+      {
+        small: 'assets/img/previous-work/6-small.jpeg',
+        medium: 'assets/img/previous-work/6-medium.jpeg',
+          big: 'assets/img/previous-work/6-big.jpeg',
+        description: 'Icebreaker'
+        },
     ];
   }
 }
