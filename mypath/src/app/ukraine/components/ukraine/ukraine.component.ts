@@ -63,7 +63,7 @@ export class UkraineComponent implements OnInit {
         small: 'assets/img/gallery/3-small.jpeg',
         medium: 'assets/img/gallery/3-medium.jpeg',
           big: 'assets/img/gallery/3-big.jpeg',
-        description: 'Odessa National Academic Opera and Ballet Theatre'
+        description: 'Odesa National Academic Opera and Ballet Theatre'
       },{
         small: 'assets/img/gallery/4-small.jpeg',
         medium: 'assets/img/gallery/4-medium.jpeg',
