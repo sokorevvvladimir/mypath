@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 // import { SharedModule } from '../shared/shared.module';
 import { HobbiesComponent } from './components/hobbies/hobbies.component';
 import { HobbiesRoutingModule } from './hobbies-routing.module';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 @NgModule({
   declarations: [
@@ -11,8 +12,8 @@ import { HobbiesRoutingModule } from './hobbies-routing.module';
   imports: [
     CommonModule,
     // SharedModule,
-    HobbiesRoutingModule
-    
+    HobbiesRoutingModule,
+    NgxGalleryModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

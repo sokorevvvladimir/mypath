@@ -23,7 +23,7 @@ export class FamilyComponent {
       {
         width: '600px',
         height: '400px',
-        thumbnailsColumns: 5,
+        thumbnailsColumns: 6,
         imageAnimation: NgxGalleryAnimation.Slide,
         arrowPrevIcon: 'fa fa-chevron-left',
         arrowNextIcon: 'fa fa-chevron-right'
@@ -76,7 +76,12 @@ export class FamilyComponent {
           big: 'assets/img/family/5-big.jpeg',
         description: 'My university family'
         },
-      
+      {
+        small: 'assets/img/family/6-small.jpeg',
+        medium: 'assets/img/family/6-medium.jpeg',
+          big: 'assets/img/family/6-big.jpeg',
+        description: 'Last day at Kherson State University. My Spanish-english group #581'
+        }
     ];
   }
 }

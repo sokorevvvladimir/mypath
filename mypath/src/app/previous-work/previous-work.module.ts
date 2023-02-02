@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { PreviousWorkComponent } from './components/previous-work/previous-work.component';
 import { PreviousWorkRoutingModule } from './previous-work-routing.module';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
-import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,8 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     // SharedModule,
     PreviousWorkRoutingModule,
-    NgxGalleryModule,
-    HttpClientModule
+    NgxGalleryModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
