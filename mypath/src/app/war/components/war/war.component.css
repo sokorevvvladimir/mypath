@@ -1,0 +1,44 @@
+.container {
+  height: 500vh;
+  position: relative;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(../../../../assets/img/war/1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.kherson {
+  height: 100vh;
+  background-image: url(../../../../assets/img/war/2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.wakeupcall {
+  height: 100vh;
+  background-image: url(../../../../assets/img/war/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dnipro {
+  height: 100vh;
+  background-image: url(../../../../assets/img/war/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.oda {
+  height: 100vh;
+  background-image: url(../../../../assets/img/war/5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

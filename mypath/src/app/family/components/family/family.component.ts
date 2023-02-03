@@ -23,7 +23,7 @@ export class FamilyComponent {
       {
         width: '600px',
         height: '400px',
-        thumbnailsColumns: 6,
+        thumbnailsColumns: 9,
         imageAnimation: NgxGalleryAnimation.Slide,
         arrowPrevIcon: 'fa fa-chevron-left',
         arrowNextIcon: 'fa fa-chevron-right'
@@ -81,6 +81,24 @@ export class FamilyComponent {
         medium: 'assets/img/family/6-medium.jpeg',
           big: 'assets/img/family/6-big.jpeg',
         description: 'Last day at Kherson State University. My Spanish-english group #581'
+      },
+      {
+        small: 'assets/img/family/7-small.jpeg',
+        medium: 'assets/img/family/7-medium.jpeg',
+          big: 'assets/img/family/7-big.jpeg',
+        description: 'My family in Plantation: Juliana, Kathleen, Brandon'
+      },
+      {
+        small: 'assets/img/family/8-small.jpeg',
+        medium: 'assets/img/family/8-medium.jpeg',
+          big: 'assets/img/family/8-big.jpeg',
+        description: 'Mike and Brandon'
+      },
+      {
+        small: 'assets/img/family/9-small.jpeg',
+        medium: 'assets/img/family/9-medium.jpeg',
+          big: 'assets/img/family/9-big.jpeg',
+        description: 'Kathi'
         }
     ];
   }
