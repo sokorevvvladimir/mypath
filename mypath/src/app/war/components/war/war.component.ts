@@ -1,5 +1,5 @@
 import {
-    Component
+    Component, OnInit
 } from '@angular/core';
 import { HostListener } from '@angular/core';
 
@@ -8,13 +8,18 @@ import { HostListener } from '@angular/core';
     templateUrl: './war.component.html',
     styleUrls: ['./war.component.css'],
 })
-export class WarComponent {
+export class WarComponent implements OnInit {
     @HostListener('window:scroll', ['$event'])
-    onWindowScroll() {
+        
+        ngOnInit(): void {
+        this.scrollFunction();
+        this.onWindowScroll();
+    };
+
+    public onWindowScroll(): void {
         let oda = document.querySelector('.oda') as HTMLElement;
         let stopTheWar = document.querySelector('.stopTheWar') as HTMLElement;
 
-        console.log(window.scrollY);
         if (window.scrollY > 4000) {
             oda.classList.add('fadeOut');
             stopTheWar.classList.add('abc');
@@ -26,4 +31,19 @@ export class WarComponent {
             return;
         }
     }
+    public goUp(): void{
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
+
+    public scrollFunction(): void {
+        let toTop = document.querySelector('.to-top') as HTMLElement;
+        console.log(toTop);
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        toTop.style.visibility = "visible";
+    } else {
+        toTop.style.visibility = "hidden";
+    }
+    }
+    
+    
 }

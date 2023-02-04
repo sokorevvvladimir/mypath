@@ -170,7 +170,7 @@
 .to-top {
   color: white;
   padding-top: 1.8em;
-  display: inline-block; /* or block */
+  display: inline-block;
   position: relative;
   border-color: white;
   text-decoration: none;
