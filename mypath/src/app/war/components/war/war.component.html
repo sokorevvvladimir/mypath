@@ -1,14 +1,23 @@
 <div class="container">
-  <div class="wakeupcall"><p class="date">02.24.2022</p></div>
+  <div class="wakeupcall">
+    <p class="date">02.24.2022</p>
+    <p class="date2">We woke up to this</p>
+  </div>
   <div><p class="text1">Those kids grew up too early</p></div>
   <div class="hero"></div>
-  <video id="background-video" autoplay loop muted>
-    <source
-      src="https://www.youtube.com/watch?app=desktop&v=muzCSGdkl7k&ab_channel=Capybara2010%F0%9F%A7%B8%F0%9F%A5%B3"
-      type="video/mp4"
-    />
-  </video>
+  <div>
+    <video class="firstVideo" autoplay muted controls>
+      <source src="../../../../assets/img/war/6.mp4" type="video/mp4" />
+    </video>
+  </div>
   <div class="kherson"></div>
   <div class="dnipro"></div>
-  <div class="oda"></div>
+  <div class="secondDivVideo">
+    <video class="secondVideo" autoplay muted controls>
+      <source src="../../../../assets/img/war/7.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="oda" (scroll)="(onWindowScroll)">
+    <p class="stopTheWar">STOP THE WAR</p>
+  </div>
 </div>
