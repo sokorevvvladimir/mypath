@@ -11,6 +11,16 @@
   background-attachment: fixed;
 }
 
+.date {
+  position: absolute;
+  top: 40%;
+  left: 27%;
+  color: #ffffff;
+  font-family: Iceland;
+  font-size: 150px;
+  animation: fadeInText ease 10s;
+}
+
 .kherson {
   height: 100vh;
   background-image: url(../../../../assets/img/war/2.jpeg);
@@ -25,6 +35,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
 }
 
 .dnipro {
@@ -42,3 +58,45 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+.text1 {
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: Iceland;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  /* position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+  /* z-index: -1; */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* .something {
+  animation: fadeBackground 6s;
+  animation-fill-mode: forwards;
+} */
+/* @keyframes fadeBackground {
+  from {
+    background-color: #000000;
+  }
+  to {
+    background-color: #ffffff;
+  }
+} */
