@@ -1,0 +1,13 @@
+.container {
+  height: 200vh;
+  position: relative;
+}
+
+.map {
+  /* margin-top: 10vh; */
+  height: 100vh;
+  background-image: url(../../../../assets/img/path-here/MapChart_Map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}

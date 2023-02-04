@@ -53,6 +53,11 @@
   animation: faulty-flicker 2s linear infinite;
 }
 
+.faulty-letter-1 {
+  opacity: 0.5;
+  animation: faulty-flicker-1 2s linear infinite;
+}
+
 .faulty-letter-2 {
   opacity: 0.5;
   animation: faulty-flicker-2 2s linear infinite;
@@ -205,6 +210,37 @@
     opacity: 0.7;
   }
   100% {
+    opacity: 1;
+  }
+}
+
+@keyframes faulty-flicker-1 {
+  0% {
+    opacity: 0.1;
+  }
+  1% {
+    opacity: 0.1;
+  }
+  14% {
+    opacity: 0.5;
+  }
+  28% {
+    opacity: 0.5;
+  }
+  43% {
+    opacity: 0.1;
+  }
+  67% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 0.5;
+  }
+  81% {
+    opacity: 0.4;
+  }
+
+  93% {
     opacity: 1;
   }
 }
