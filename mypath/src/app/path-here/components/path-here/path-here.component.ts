@@ -24,7 +24,7 @@ export class PathHereComponent implements OnInit {
       {
         width: '600px',
         height: '400px',
-        thumbnailsColumns: 25,
+        thumbnailsColumns: 24,
         imageAnimation: NgxGalleryAnimation.Slide,
         arrowPrevIcon: 'fa fa-chevron-left',
         arrowNextIcon: 'fa fa-chevron-right'
@@ -166,6 +166,30 @@ export class PathHereComponent implements OnInit {
         medium: 'assets/img/path-here/20-medium.jpeg',
           big: 'assets/img/path-here/20-big.jpeg',
         description: 'My apartment buddy in Madrid'
+      },
+       {
+        small: 'assets/img/path-here/21-small.jpeg',
+        medium: 'assets/img/path-here/21-medium.jpeg',
+          big: 'assets/img/path-here/21-big.jpeg',
+        description: 'Levaing Madrid for Oslo, Norway'
+      },
+       {
+        small: 'assets/img/path-here/22-small.jpeg',
+        medium: 'assets/img/path-here/22-medium.jpeg',
+          big: 'assets/img/path-here/22-big.jpeg',
+        description: 'Transatlantic flight Oslo - Fort Lauderdale'
+      },
+       {
+        small: 'assets/img/path-here/23-small.jpeg',
+        medium: 'assets/img/path-here/23-medium.jpeg',
+          big: 'assets/img/path-here/23-big.jpeg',
+        description: 'My american family took a picture of my first step on the American soil'
+      },
+       {
+        small: 'assets/img/path-here/24-small.jpeg',
+        medium: 'assets/img/path-here/24-medium.jpeg',
+          big: 'assets/img/path-here/24-big.jpeg',
+        description: 'Fort Lauderdale beach'
       }
     ];
   }
