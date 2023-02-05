@@ -20,12 +20,12 @@ export class WarComponent implements OnInit {
         let oda = document.querySelector('.oda') as HTMLElement;
         let stopTheWar = document.querySelector('.stopTheWar') as HTMLElement;
 
-        if (window.scrollY > 4000) {
+        if (window.scrollY > 4440) {
             oda.classList.add('fadeOut');
             stopTheWar.classList.add('abc');
             return;
         }
-        if (window.scrollY < 3999) {
+        if (window.scrollY < 4439) {
             oda.classList.remove('fadeOut');
             stopTheWar.classList.remove('abc');
             return;
