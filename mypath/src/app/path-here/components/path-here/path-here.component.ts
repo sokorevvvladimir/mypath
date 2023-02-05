@@ -171,7 +171,7 @@ export class PathHereComponent implements OnInit {
         small: 'assets/img/path-here/21-small.jpeg',
         medium: 'assets/img/path-here/21-medium.jpeg',
           big: 'assets/img/path-here/21-big.jpeg',
-        description: 'Levaing Madrid for Oslo, Norway'
+        description: 'Leaving Madrid for Oslo, Norway'
       },
        {
         small: 'assets/img/path-here/22-small.jpeg',
