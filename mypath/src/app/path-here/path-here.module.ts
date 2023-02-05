@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 // import { SharedModule } from '../shared/shared.module';
 import { PathHereComponent } from './components/path-here/path-here.component';
 import { PathHereRoutingModule } from './path-here-routing.module';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { PathHereRoutingModule } from './path-here-routing.module';
   imports: [
     CommonModule,
     // SharedModule,
-    PathHereRoutingModule
+    PathHereRoutingModule,
+    NgxGalleryModule
     
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

@@ -1,3 +1,17 @@
 <div class="container">
   <div class="map"></div>
+  <div class="cont">
+    <p class="text">Scroll down for some photos</p>
+    <span class="circle">
+      <i class="fa fa-arrow-down"></i>
+    </span>
+    <span class="pulse"></span>
+  </div>
+  <div class="gallery">
+    <ngx-gallery
+      [options]="galleryOptions"
+      [images]="galleryImages"
+      class="ngx-gallery"
+    ></ngx-gallery>
+  </div>
 </div>

@@ -1,5 +1,5 @@
 import {
-    Component
+    Component, OnInit
 } from '@angular/core';
 import {NgxGalleryOptions} from '@kolkov/ngx-gallery';
 import {NgxGalleryImage} from '@kolkov/ngx-gallery';
@@ -10,7 +10,7 @@ import { NgxGalleryAnimation } from '@kolkov/ngx-gallery';
     templateUrl: './hobbies.component.html',
     styleUrls: ['./hobbies.component.css'],
 })
-export class HobbiesComponent {
+export class HobbiesComponent implements OnInit {
      galleryOptions: NgxGalleryOptions[];
     galleryImages: NgxGalleryImage[];
 

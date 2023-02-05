@@ -1,5 +1,5 @@
 import {
-    Component
+    Component, OnInit
 } from '@angular/core';
 import {NgxGalleryOptions} from '@kolkov/ngx-gallery';
 import {NgxGalleryImage} from '@kolkov/ngx-gallery';
@@ -10,7 +10,7 @@ import { NgxGalleryAnimation } from '@kolkov/ngx-gallery';
     templateUrl: './family.component.html',
     styleUrls: ['./family.component.css'],
 })
-export class FamilyComponent {
+export class FamilyComponent implements OnInit {
     galleryOptions: NgxGalleryOptions[];
     galleryImages: NgxGalleryImage[];
     

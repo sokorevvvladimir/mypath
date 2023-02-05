@@ -1,5 +1,5 @@
 import {
-    Component
+    Component, OnInit
 } from '@angular/core';
 import {NgxGalleryOptions} from '@kolkov/ngx-gallery';
 import {NgxGalleryImage} from '@kolkov/ngx-gallery';
@@ -11,7 +11,7 @@ import { NgxGalleryAnimation } from '@kolkov/ngx-gallery';
     templateUrl: './previous-work.component.html',
     styleUrls: ['./previous-work.component.css'],
 })
-export class PreviousWorkComponent {
+export class PreviousWorkComponent implements OnInit {
      galleryOptions: NgxGalleryOptions[];
     galleryImages: NgxGalleryImage[];
     neonLightOne: string = 'click';
